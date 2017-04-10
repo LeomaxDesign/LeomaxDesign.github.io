@@ -527,6 +527,10 @@ ul {
     padding-left: 18px;
     outline: none;
     margin-top: 4px; }
+    .cvc-hidden .card-cvc:valid{
+      border-color: #93bc00;  }
+      .cvc-hidden .card-cvc:valid ~ .cvc-helper-icon i{
+         color: #93bc00;  }
     .cvc-hidden .card-cvc:focus {
       border-color: #93bc00; }
     .cvc-hidden .card-cvc:focus ~ .cvc-helper-icon i {
