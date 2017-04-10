@@ -3,7 +3,7 @@
   font-weight: bold;
   font-style: normal;
   src: url("../fonts/OpenSans-Bold/OpenSans-Bold.eot");
-  src: url("../fonts/OpenSans-Bold/OpenSans-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/OpenSans-Bold/OpenSans-Bold.woff") format("woff"), url("../fonts/OpenSans-Bold/OpenSans-Bold.ttf") format("truetype"); }
+  src: url("../fonts/OpenSans-Bold/OpenSans-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/OpenSans-Bold/OpenSans-Bold.ttf") format("truetype"); }
 
 /*!
  *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
@@ -3545,7 +3545,7 @@ ul {
               margin-top: 4px;
               background: #fff;
               -webkit-appearance: none;
-              background-image: url("/img/arrow.png");
+              background-image: url("../img/arrow.png");
               background-repeat: no-repeat;
               /* for FF */
               -moz-appearance: none;
