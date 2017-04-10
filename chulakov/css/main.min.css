@@ -552,7 +552,8 @@ ul {
       background-color: #f7f8f8;
       right: -60px;
       top: 34px;
-      padding: 6px; }
+      padding: 6px;
+      z-index: 20; }
       .cvc-hidden .cvc-helper-icon .helper-info:before {
         position: absolute;
         content: '';
