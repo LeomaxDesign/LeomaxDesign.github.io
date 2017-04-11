@@ -109,10 +109,10 @@
   color: #bec6cf;
   opacity: 1; }
 
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
-    -webkit-appearance: none;
-}
+*::-webkit-outer-spin-button,
+*::-webkit-inner-spin-button {
+    -webkit-appearance: none;}
+
 body input:focus:required:invalid,
 body textarea:focus:required:invalid {
   color: #666; }
