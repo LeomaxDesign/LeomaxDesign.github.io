@@ -360,7 +360,6 @@ ul {
               margin-top: 4px;
               background: #fff;
               -webkit-appearance: none;
-              background-image: url("../img/arrow.png");
               background-repeat: no-repeat;
               /* for FF */
               -moz-appearance: none;
@@ -369,8 +368,7 @@ ul {
               appearance: none !important;
               outline: none; }
               .main__right .right__section .section__card_info .card_info__cards .front-card .date-container .card-month:focus, .main__right .right__section .section__card_info .card_info__cards .front-card .date-container .card-year:focus {
-                border-color: #93bc00;
-                background-image: url("../img/arrow-1.png"); }
+                border-color: #93bc00; }
             .main__right .right__section .section__card_info .card_info__cards .front-card .date-container .card-month.error, .main__right .right__section .section__card_info .card_info__cards .front-card .date-container .card-year.error {
               background-color: #ffecec;
               border-color: #f00; }
