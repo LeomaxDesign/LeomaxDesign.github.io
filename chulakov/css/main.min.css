@@ -360,6 +360,7 @@ ul {
               margin-top: 4px;
               background: #fff;
               -webkit-appearance: none;
+              background-image: url("../img/arrow.png");
               background-repeat: no-repeat;
               /* for FF */
               -moz-appearance: none;
