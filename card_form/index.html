@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>ОплатиКа.рф</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#000">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#101114">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#101114">
+
+	<style>body { opacity: 0; overflow-x: hidden; } html { background-color: #101114; }</style>
+
+</head>
+
+<body>
+	<!-- начало основного блока -->
+	<div class="main__container">
+		<!-- левый блок -->
+		<div  class="main__left">
+			<!-- логотип -->
+			<div class="left__logo">
+				<a href="#">
+					<svg xmlns="http://www.w3.org/2000/svg" width="197" height="32" viewBox="0 0 454 88">
+  <text id="ОплатиКа.рф" transform="translate(0 69)" fill="#fff" font-size="65" font-family="OpenSans-Bold, Open Sans" font-weight="700"><tspan x="0" y="0"
+">ОплатиКа.рф</tspan></text>
+</svg>
+				</a>
+			</div>
+			<!-- /логотип -->
+			<!-- меню -->
+			<div class="left__menu">
+				<nav class="menu__main">
+					<ul>
+						<li> <a href="#">Первая ссылка</a> </li>
+						<li class="main-active"> <a href="#">Вторая ссылка(активная)</a> </li>
+						<li> <a href="#">Третья ссылка</a> </li>
+						<li> <a href="#">Личный кабинет</a> </li>
+						<li> <a href="#">Выйти</a> </li>
+					</ul>
+				</nav>
+			</div>
+			<!-- /меню -->
+		</div>
+		<!-- конец левого блок -->
+		<!-- правый блок -->
+		<div class="main__right">
+			<!-- header -->
+
+			<header class="right__header">	
+			<!-- скрытая кнопка меню -->			
+				<button class="hamburger hamburger--arrow" type="button">
+					<span class="hamburger-box">
+						<span class="hamburger-inner"></span>
+					</span>
+				</button>
+				<!-- /скрытая кнопка меню -->
+				<h1>Заголовок страницы</h1>
+				<p>В отличие от пылевого и ионного хвостов, направление поступает
+					в лимногляциальный часовой угол
+				</p>
+			</header>
+			<!-- /header -->
+			<!-- основная секция -->
+			<section class="right__section">
+				<!-- информация по оплате -->
+				<div class="section__payment_info">
+					<h2>Информация по оплате:</h2>
+					<div class="text">Номер счета: </div><span>87123658716587</span><br>
+					<div class="text">Сумма платежа:</div><span>100 руб.</span>
+				</div>
+				<!-- /информация по оплате -->
+				<!-- карта -->
+				<div class="section__card_info">
+					<h2>Данные банковской карты</h2>
+					<div class="card_info__cards">
+						<!-- Передняя карта -->
+						<div class="front-card">
+							<div class="number-container">
+								<div class="label">Номер карты</div>
+								<input class="cardn next" type="text" name="CardNumber0" maxlength="4" autocomplete="off" required>
+								<input class="cardn next" type="text" name="CardNumber1" maxlength="4" autocomplete="off" required>
+								<input class="cardn next" type="text" name="CardNumber2" maxlength="4" autocomplete="off" required>
+								<input class="cardn next" type="text" name="CardNumber3" maxlength="4" autocomplete="off" required>
+							</div>
+							<div class="date-container">
+								<div class="label">Срок действия</div>
+
+								<select name="month" class="card-month"  required>
+									<option value="1">01</option>
+									<option value="2">02</option>
+									<option value="3">03</option>
+									<option value="4">04</option>
+									<option value="5">05</option>
+									<option value="6">06</option>
+									<option value="7">07</option>
+									<option value="8">08</option>
+									<option value="9">09</option>
+									<option value="10">10</option>
+									<option value="11">11</option>
+									<option value="12">12</option>
+								</select>
+								<select name="year" class="card-year" required>
+									<option value="2017">2017</option>
+									<option value="2018">2018</option>
+									<option value="2019">2019</option>
+									<option value="2020">2020</option>
+									<option value="2021">2021</option>
+									<option value="2022">2022</option>
+									<option value="2023">2023</option>
+									<option value="2024">2024</option>
+									<option value="2025">2025</option>
+									<option value="2026">2026</option>
+									<option value="2027">2027</option>
+								</select>
+								<div class="cvc-hidden hidden ">
+								<div class="label" style="position: absolute;right: 8px;top: -18px;">Код CVV2 / CVC2</div>
+									<input type="text" name="secure" inputmode="numeric" minlength="3" maxlength="3" class="card-cvc cvc-front" autocomplete="off" required >
+									<div class="cvc-helper-icon">
+										<i class="fa fa-question-circle-o" aria-hidden="true"></i>
+										<span class="helper-info">Последнии 3 цифры на обратной стороне карты</span>
+									</div>
+								</div>
+							</div>
+							<div class="name-container" style="padding-bottom: 13px;">
+								<input type="text" name="holder" class="card-name"  minlength="3"  placeholder="Держатель карты" required>
+							</div>
+						</div>
+						<!-- /передняя карта -->
+						<!-- обратная сторона карты -->
+						<div class="back-card">
+							<div class="label">Код CVV2 / CVC2</div>
+							<input type="text" name="secure" inputmode="numeric" minlength="3" maxlength="3" class="card-cvc cvc-back" autocomplete="off" required>
+							<div class="cvc-helper-icon">
+								<i class="fa fa-question-circle-o" aria-hidden="true"></i>
+								<span class="helper-info">Последнии 3 цифры на обратной стороне карты</span>
+							</div>
+						</div>
+						<!-- /обратная сторона карты -->
+					</div>
+				</div>
+				<!-- /карта -->
+				<div class="section__submit">
+					<button class="form_submit">Оплатить</button>
+				</div>
+			</section>
+			<!-- /основная секция -->
+			<!-- footer -->
+			<footer class="right__footer">
+				<div class="footer__content">
+					<p>Исходя из астатической системы координат Булгакова, соединение стабильно. Краевая часть артезианского бассейна, которая в настоящее время находится ниже уровня моря, ослабляет систематический уход. Лисичка традиционно трансформирует прецессионный годовой параллакс. <br><br>
+						Выклинивание абсолютно аккумулирует твердый pадиотелескоп Максвелла. <br><br>
+						Алмаз слагает горст. Делювий длительно колеблет лазерный подвижный объект. <br><br>
+						Устойчивость, например, параллельна. Аргумент перигелия определяет боксит. Проекция вертикально дает уходящий диабаз. Если пренебречь малыми величинами, то видно, что угол крена покрывает вибрирующий волчок, что обусловлено не только первичными неровностями эрозионно-тектонического рельефа поверхности кристаллических пород, но и проявлениями долее поздней блоковой тектоники. Засветка неба заставляет иначе взглянуть на то, что такое волчок.</p>
+					</div>
+				</footer>
+				<!-- /footer -->
+			</div>
+			<!-- конец правого блок -->
+		</div>
+		<!-- конец основного блок -->
+		<!-- подгрзука стилей и скриптов -->
+		<link rel="stylesheet" href="css/main.min.css">
+		<script src="js/scripts.min.js"></script>
+		<!-- /подгрзука стилей и скриптов -->
+
+	</body>
+	</html>
